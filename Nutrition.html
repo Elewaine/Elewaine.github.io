@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./styles/Formatting.css">
+		<link rel="stylesheet" href="./styles/Colors.css">
+		<link rel="stylesheet" href="./styles/Transitions-Animations.css">
 		<title>jackedRus</title>
 	</head>
 	
@@ -18,34 +21,31 @@
 			</table>
 		</nav>
 		<main>
-			<h2<em>Nutrition is just as important as lifting!</em></h2>
+			<h2>Nutrition is just as important as lifting!</h2>
 			<p>Going hard in the gym is only part of the equation. Without proper nutrition, your body will not receive the fuel it needs to grow and build the muscle you have been working so hard to achieve.</p>
 			<h2>Eating with your goals in mind</h2>
-			<dl>
-				<div class="list">
+			<div class="info-card" style="margin:0 20% 0 20%;">
+				<dl>
 					<dt><b>-Getting Massive</b></dt>
 					<dd>Eat in a caloric surplus- This will give your body more energy than it needs so that no gains are lost due to a lack of fuel.</dd>
-				</div>
-				<div class="list">
 					<dt><b>-Getting Shredded</b></dt>
 					<dd>Eat in a caloric defecit- This will starve your energy of the energy it needs, requiring your body to pull energy from your fat storage. You won't build much muscle like this however, you will get extremely lean and have the six-pack you always wanted.</dd>
-				</div>
-				<div class="list">
 					<dt><b>-Getting Big and Shredded</b></dt>
 					<dd>Eat calorically neutral- consume just enough energy to match your daily energy output. This will give your body just enough energy to grow, and any extra energy needed will come from your fat storage. You will maintain your bodyweight while your body recomposes, replacing the weight you gain in muscle with the weight you lose burning fat, getting you big and lean at the same time, like magic.</dd>
-				</div>
+				</dl>
+			</div>
 			<h2>What should I be eating?</h2>
 			<p>There are three main macronutrients and another vital nutrient group you should prioritize eating when trying to make gains.</p>
 			<ul>
-				<li>Protein- The main building blocks of muscle</li>
-				<li>Carbohydrates- Pure energy your body will use immediately to fuel your activities</li>
-				<li>Fats- Keeps your body running like a well-oiled machine and keeps your natural hormones stable</li>
-				<li>Fiber- Another major building block for muscle growth as well as increasing your overall gut and hormonal health</li>
+				<li style="flex-grow: 1; flex-shrink: 1;">Protein- The main building blocks of muscle</li>
+				<li style="flex-grow: 2; flex-shrink: 2;">Carbohydrates- Pure energy your body will use immediately to fuel your activities</li>
+				<li style="flex-grow: 1; flex-shrink: 1;">Fats- Keeps your body running like a well-oiled machine and keeps your natural hormones stable</li>
+				<li style="flex-grow: 2; flex-shrink: 2;">Fiber- Another major building block for muscle growth as well as increasing your overall gut and hormonal health</li>
 			</ul>
-			<picture>
-				<source media="(min-width: 750px)" srcset="./Images/MacroNutrients.jpg" alt="Whole Foods">			
-				<img src="./Images/MacroNutrientsSmall.jpg" alt="Whole Foods">
-			</picture>
+			<div id="image">
+				<img src="./Images/MacroNutrients.jpg" alt="Whole Foods" class="large">
+				<img src="./Images/MacroNutrientsSmall.jpg" alt="Whole Foods" class="small">
+			</div>		
 		</main>
 	</body>
 	<footer>Use code "jackedRus" for 15% off on premium supplements</footer>

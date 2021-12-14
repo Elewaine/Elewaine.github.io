@@ -2,75 +2,81 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./styles/Formatting.css">
+		<link rel="stylesheet" href="./styles/Colors.css">
+		<link rel="stylesheet" href="./styles/Transitions-Animations.css">
 		<title>jackedRus</title>
 	</head>
 	
 	
 	
 	<body>
-		<h1>Lifting!</h1>
-		<nav>
-			<table>
-				<tr>
-					<th><a href="./Home.html"> Home</a></th>
-					<th><a href="./Nutrition.html"> Nutrition</a></th>
-					<th><a href="./Recovery.html"> Recovery</a></th>
-				</tr>
-			</table>
-		</nav>
+		<section>
+			<h1>Lifting!</h1>
+			<nav>
+				<table>
+					<tr>
+						<th><a href="./Home.html"> Home</a></th>
+						<th><a href="./Nutrition.html"> Nutrition</a></th>
+						<th><a href="./Recovery.html"> Recovery</a></th>
+					</tr>
+				</table>
+			</nav>
+		</section>
 		<main>
-			<h2><em>Why lifting?</em></h2>
+			<h2><em>Why lift?</em></h2>
 			<p>Lifting is the driving factor of muscle growth, without it, your muscles will not make any adaptations to grow.</p>
-			<h3>How do I lift?</h3>
-			<p>There are two primary modalities of training</p>
-			<dl>
-				<div class="list">
-					<dt><b>-Strength</b></dt>
-					<dd>High weight low reps</dd>
+			<div class="container">
+				<div class="info-card">
+					<h2>How do I lift?</h2>
+					<p id="text">There are two primary modalities of training</p>
+					<dl class="list">
+							<dt><b>-Strength</b></dt>
+							<dd>High weight low reps</dd>
+							<dt><b>-Hypertrophy</b></dt>
+							<dd>Low weight high reps</dd>
+					</dl>
+					<p id="text" style="font-size: 1.75em;">These two traning modalities go together hand in hand, however, they can be utilized individually to achieve more specific goals. Strength training will get you really strong, but wont make you look quite as big since it builds very dense muscle fibers. Hypertrophy will make you massive, but you wont actually be strong for your size. Using them both together will not only get you absolutely jacked but will also provide you jaw dropping strength to impress all the ladies... but probaly mostly gym bros.</p>
 				</div>
-				<div class="list">
-					<dt><b>-Hypertrophy</b></dt>
-					<dd>Low weight high reps</dd>
+				<div class="info-card">
+					<h2>What lifts do I use?</h2>
+					<p id="text">There are 3 primary lifts that you should aways train</p>
+					<dl class="list">
+							<dt><b>-Bench Press</b></dt>
+							<dd>Hits chest, shoulders and triceps </dd>
+							<dt><b>-Squat</b></dt>
+							<dd>Hits quads, glutes, hamstrings and all stabilizing muscles in your hips</dd>
+							<dt><b>-Deadlift</b></dt>
+							<dd>Hits the entire back, glutes, and hamstrings</dd>
+					</dl>
+					<p id="text">While these are the main three, there are countless variations related to these which you can use to target specific muscles.</p>
 				</div>
-			</dl>
-			<p>These two traning modalities go together hand in hand, however, they can be utilized individually to achieve more specific goals. Strength training will get you really strong, but wont make you look quite as big since it builds very dense muscle fibers. Hypertrophy will make you massive, but you wont actually be strong for your size. Using them both together will not only get you absolutely jacked but will also provide you jaw dropping strength to impress all the ladies... but probaly mostly gym bros.</p>
-			<h2>Okay but what lifts do I use?</h2>
-			<dl>
-				<div class="list">
-					<dt><b>-Bench Press</b></dt>
-					<dd>Hits chest, shoulders and triceps </dd>
-				</div>
-				<div class="list">
-					<dt><b>-Squat</b></dt>
-					<dd>Hits quads, glutes, hamstrings and all stabilizing muscles in your hips</dd>
-				</div>
-				<div class="list">
-					<dt><b>-Deadlift</b></dt>
-					<dd>Hits the entire back, glutes, and hamstrings</dd>
-				</div>
-			</dl>
-			<p>While these are the main three, there are countless variations related to these which you can use to target specific muscles.</p>
+			</div>
+			
 			<h2>How do I perform these excercises?</h2>
 			<p>Form must be executed properly to ensure safety and that you are getting the proper benefits from each lift</p>
-			<div>
-				<h3>Bench Press form</h3>
-				<iframe
-					width="420" height="315"
-					src="https://www.youtube.com/embed/SCVCLChPQFY">
-				</iframe>	
-				<h3>Squat form</h3>
-				<iframe 
-					width="420" height="315"
-					src="https://www.youtube.com/embed/ultWZbUMPL8">
-				</iframe>
-				<h3>Deadlift form</h3>
-				<iframe 
-					width="420" height="315"
-					src="https://www.youtube.com/embed/op9kVnSso6Q">
-				</iframe>
+			<div class="container2">
+				<div class="tut-card">
+					<h3>Bench Press form</h3>
+					<iframe
+						src="https://www.youtube.com/embed/SCVCLChPQFY">
+					</iframe>
+				</div>	
+				<div class="tut-card">
+					<h3>Squat form</h3>
+					<iframe 
+						src="https://www.youtube.com/embed/ultWZbUMPL8">
+					</iframe>
+				</div>
+				<div class="tut-card">
+					<h3>Deadlift form</h3>
+					<iframe 
+						src="https://www.youtube.com/embed/op9kVnSso6Q">
+					</iframe>
+				</div>
 			</div>
 			<p>Of course a key part of training hard is properly hyping yourself up and screaming as loud as you can before and during your lifts, just like the GOAT himself, Ronnie Coleman.</p>
-			<div>
+			<div class="audio">
 				<audio controls>
 					<source src="./audio/LightWeightBaby.mp3" type="audio/mp3">
 				</audio>
