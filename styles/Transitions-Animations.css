@@ -1,0 +1,38 @@
+th:hover, a:hover{
+    background: blue;
+}
+#one:hover{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transform: scale(1.15);
+}
+#two:hover{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transform: scale(1.15);
+}
+#three:hover{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transform: scale(1.15);
+}
+#four:hover{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transform: scale(1.15);
+}
+#myCanvas{
+    animation: fall 5s 5s forwards;
+}
+@keyframes fall {
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(10000px);
+	}
+}	

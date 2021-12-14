@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gang-wolfik-blade');
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+}
+table{
+    width: 90vw;
+}
+tr{
+    display: flex;
+    flex-grow: 1;
+    
+}
+th, a{
+    
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+    box-shadow: 0px 0px 10px #111111;
+    border-radius: 10px;
+
+}
+th:nth-of-type(2n+1){
+    margin: 0px 5% 0px 5%;
+}
+li{
+    text-align: center;
+    list-style-position: inside;
+    font-size: 2em;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+}
+h1{
+    font-family: 'Gang Wolfik Blade', sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+h2{
+    font-family: 'Gang Wolfik Blade', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.mediabar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    max-width: 99vw;
+    flex-basis: 100%;
+    box-shadow: 0px 0px 20px #111111;
+    margin-top: 15px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 3em;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #111111;
+    justify-content: flex-start;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+}
+.tut-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #111111;
+    justify-content: flex-start;
+    padding: 0em 1.5em 1.5em 1.5em;
+}
+iframe{
+    display: flex;
+    flex-grow: 1;
+    min-width: 0;
+    min-height: 0;
+}
+.list{
+    font-size: 2em;
+}
+img{
+    flex: auto;
+    min-width: 0;
+}
+div#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+}
+.audio{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px 10% 0px 10%;
+}
+ul>li{
+    border: 1px solid #111111;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #111111;
+    margin-top: 2.5%;
+}
+footer{
+    font-family: 'Cairo', sans-serif;
+}
+#one{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: transform ease-in-out .5s;
+}
+#two{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: transform ease-in-out .5s;
+}
+#three{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: transform ease-in-out .5s;
+}
+#four{
+    display: flex;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: transform ease-in-out .5s;
+}
+.large{
+    display: none;
+}
+@media only screen and (min-width: 1000px){
+    .small{
+        display: none;
+    }
+    .large{
+        display: block;
+    }
+}
+@media only screen and (max-width: 500px){
+    *{
+        transition: none !important;
+        animation: none !important;
+    }
+    .mediabar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        max-width: 99vw;
+        flex-basis: 100%;
+        box-shadow: 0px 0px 20px #111111;
+        margin-top: 15px;
+        max-height: 100px;
+    }
+    
+    .small{
+        display: none;
+    }
+    .large{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 3em;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+        margin: 1em;
+}
+    }
+}

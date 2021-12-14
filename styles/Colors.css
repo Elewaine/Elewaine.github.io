@@ -1,0 +1,32 @@
+*{
+    background-color: #222222;
+    color: white;
+}
+th, a{
+    background-color: #333333;
+}
+
+
+
+.info-card{
+    background-color: #333333;
+}
+.info-card > h2, dl, dt, dd, b,.list{
+    background-color: #333333;
+    
+}
+.tut-card{
+    background-color: #333333;
+}
+p#text{
+    background-color: #333333;
+}
+h3{
+    background-color: #333333;
+}
+ul>li{
+    background-color: #333333;
+}
+ul>li:nth-of-type(2n+1){
+    background-color: #444444;
+}
